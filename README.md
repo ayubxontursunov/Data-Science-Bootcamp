@@ -106,6 +106,7 @@ python3 your_script.py    # Linux/macOS
 python your_script.py     # Windows
 ```
 
+---
 
 ## 📬 Contact
 Want to connect or collaborate?
@@ -117,9 +118,11 @@ Want to connect or collaborate?
 
 
 “The goal is to turn data into information, and information into insight.” — Carly Fiorina
+---
 
 ## 🏷 Tags
 #Python #DataScience #MachineLearning #SQL #Pandas #Visualization #Bootcamp
+---
 
 ## 🧾 License
 MIT License — feel free to use and contribute!
