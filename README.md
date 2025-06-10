@@ -121,9 +121,9 @@ Want to connect or collaborate?
 
 ---
 ## 🏷 Tags
-#Python #DataScience #MachineLearning #SQL #Pandas #Visualization #Bootcamp
----
+`#Python` `#DataScience` `#MachineLearning` `#SQL` `#Pandas` `#Visualization` `#Bootcamp`
 
+---
 ## 🧾 License
 MIT License — feel free to use and contribute!
 
