@@ -1,0 +1,4 @@
+python3 names_extractor.py emails.txt
+
+
+python3 letter_starter.py ivan.petrov@corp.com

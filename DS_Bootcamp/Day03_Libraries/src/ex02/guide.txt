@@ -1,0 +1,34 @@
+import sys
+import subprocess
+import os
+
+# 1. Check if we're in a virtual environment
+if sys.prefix == sys.base_prefix:
+    print("❌ Not inside a virtual environment.")
+    sys.exit(1)
+else:
+    print("✅ Running inside a virtual environment.")
+
+# 2. Create a requirements.txt dynamically
+required_packages = '\n'.join([
+    'beautifulsoup4',
+    'pytest'
+])
+
+with open('requirements.txt', 'w') as f:
+    f.write(required_packages)
+
+# 3. Install using pip and requirements.txt (no loops!)
+subprocess.run([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"], check=True)
+
+# 4. Get list of installed packages and their versions
+result = subprocess.run([sys.executable, "-m", "pip", "freeze"], capture_output=True, text=True)
+installed_packages = result.stdout.strip()
+
+# 5. Save installed packages to requirements.txt (overwrite)
+with open('requirements.txt', 'w') as f:
+    f.write(installed_packages)
+
+# 6. Show the result in the terminal
+print("\n📦 Installed packages:\n")
+print(installed_packages)

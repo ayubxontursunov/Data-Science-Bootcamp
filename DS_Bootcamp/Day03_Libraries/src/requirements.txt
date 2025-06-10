@@ -1,0 +1,6 @@
+termgraph
+beautifulsoup4
+requests
+yfinance
+httpx
+pytest

@@ -1,0 +1,15 @@
+Sat Apr 12 15:55:56 2025    profiling-http.prof
+
+         814366 function calls (782130 primitive calls) in 1.393 seconds
+
+   Ordered by: cumulative time
+   List reduced from 4467 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    611/1    0.003    0.000    1.394    1.394 {built-in method builtins.exec}
+        1    0.000    0.000    1.394    1.394 financial_enhanced.py:1(<module>)
+        1    0.000    0.000    0.951    0.951 financial_enhanced.py:6(get_financial_data)
+        1    0.000    0.000    0.951    0.951 /home/simmonsc/Desktop/DS_Bootcamp/DS_Bootcamp.Day03.ID_886513-1/src/simmonsc/lib/python3.12/site-packages/yfinance/ticker.py:220(financials)
+        1    0.000    0.000    0.951    0.951 /home/simmonsc/Desktop/DS_Bootcamp/DS_Bootcamp.Day03.ID_886513-1/src/simmonsc/lib/python3.12/site-packages/yfinance/ticker.py:196(income_stmt)
+
+
