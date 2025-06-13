@@ -69,7 +69,7 @@ This intensive, hands-on training program provided me with practical knowledge i
 ├── Day06_SQL/<br>
 ├── Day07_Visualization/<br>
 ├── Day08_BasicML/<br>
-├── Day09_AdvancedML/
+├── Day09_AdvancedML/<br>
 ├── Team00_MiniProject/<br>
 └── Team01_FinalProject/<br>
 
