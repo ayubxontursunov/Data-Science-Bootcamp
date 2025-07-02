@@ -1,8 +1,8 @@
 # config.py
 
 # Telegram Bot Configuration
-TELEGRAM_BOT_TOKEN = '7019160856:AAE14iTC5a1O5i6g_2VqLEqDV2WDimuSvyw'
-TELEGRAM_CHAT_ID = '-1002089728025'
+TELEGRAM_BOT_TOKEN = 'your_telegram_bot_token'
+TELEGRAM_CHAT_ID = 'your_chat_or_group_id'
 
 # Number of steps for predictions
 NUM_OF_STEPS = 3
