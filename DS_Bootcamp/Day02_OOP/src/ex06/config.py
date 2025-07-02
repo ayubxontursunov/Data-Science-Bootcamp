@@ -2,7 +2,7 @@
 
 # Telegram Bot Configuration
 TELEGRAM_BOT_TOKEN = 'your_telegram_bot_token'
-TELEGRAM_CHAT_ID = 'your_chat_or_group_id'
+TELEGRAM_CHAT_ID = 'your_chat_or_group_id_'
 
 # Number of steps for predictions
 NUM_OF_STEPS = 3
